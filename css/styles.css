@@ -1,26 +1,25 @@
 body {
-  font-size: 14px;
-  color: black;
-  background-color: mistyrose;
-  font-family: Arial;
-     
+    font-size: 14px;
+    color: black;
+    background-color: mistyrose;
+    font-family: Arial;
 }
 
 #header-nav {
-    background-color: darkslategray;
-    
+    background-color: black;
 }
+
 .navbar-brand {
     float: left;
     position: absolute;
-    top: -10px;
+    font-size: 4vw;
+    top: -30px;
     left: 10px;
-    
 }
 
 
 #nav-list {
-    color: slategray;
+    color: slategrey;
     position: relative;
     top: 5px;
     text-align: center;
@@ -32,16 +31,13 @@ body {
     margin: 10px;
     text-decoration: none;
     color: slategray;
-    
 }
 
-.page-header > h2{
+.page-header > h2 {
     text-align: center;
     font-family: 'Comic Sans MS';
     position: relative;
     bottom: 10px;
-     
-    
 }
 
 .row > div {
@@ -52,7 +48,8 @@ body {
     line-height: 25px;
     overflow: auto;
 }
-h3{
+
+h3 {
     text-align: center;
 }
 
@@ -63,9 +60,10 @@ h3{
 }
 
 @media only screen and (min-width: 1200px) {
-    
+
     .col-lg-4 {
-        width: 30%
+        width: 30%;
+        left: 30px;
     }
 }
 
@@ -73,10 +71,12 @@ h3{
     .col-md-6 {
         width: 47%;
     }
+
     .col-md-12 {
         width: 100%;
     }
 }
+
 @media (max-width: 767px) {
     .col-sm-12 {
         width: 100%;
