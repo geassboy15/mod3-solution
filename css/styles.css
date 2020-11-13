@@ -1,0 +1,84 @@
+body {
+  font-size: 14px;
+  color: black;
+  background-color: mistyrose;
+  font-family: Arial;
+     
+}
+
+#header-nav {
+    background-color: darkslategray;
+    height: 80px;
+}
+.navbar-brand {
+    float: left;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    
+}
+
+
+#nav-list {
+    color: slategray;
+    position: relative;
+    top: 5px;
+    text-align: center;
+}
+
+.navbar > h1 {
+    font-size: 3.5vw;
+    padding: 0;
+    margin: 10px;
+    text-decoration: none;
+    color: slategray;
+    
+}
+
+.page-header > h2{
+    text-align: center;
+    font-family: 'Comic Sans MS';
+    position: relative;
+    bottom: 10px;
+     
+    
+}
+
+.row > div {
+    background-color: gray;
+    margin: 10px;
+    padding: 1px 20px 0 20px;
+    /*width: 90%;*/
+    line-height: 25px;
+    overflow: auto;
+}
+h3{
+    text-align: center;
+}
+
+.backtotop {
+    color: lightseagreen;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    .col-lg-4 {
+        width: 30%
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .col-md-6 {
+        width: 47%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
